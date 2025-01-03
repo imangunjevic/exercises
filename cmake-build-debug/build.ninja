@@ -61,6 +61,12 @@ build CMakeFiles/exercises.dir/002-ArrayManualAscendingSort.cpp.obj: CXX_COMPILE
   OBJECT_DIR = CMakeFiles\exercises.dir
   OBJECT_FILE_DIR = CMakeFiles\exercises.dir
 
+build CMakeFiles/exercises.dir/003-DistanceBetweenSums.cpp.obj: CXX_COMPILER__exercises_unscanned_Debug C$:/Users/I/Desktop/exercises/003-DistanceBetweenSums.cpp || cmake_object_order_depends_target_exercises
+  DEP_FILE = CMakeFiles\exercises.dir\003-DistanceBetweenSums.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exercises.dir
+  OBJECT_FILE_DIR = CMakeFiles\exercises.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target exercises
@@ -69,7 +75,7 @@ build CMakeFiles/exercises.dir/002-ArrayManualAscendingSort.cpp.obj: CXX_COMPILE
 #############################################
 # Link the executable exercises.exe
 
-build exercises.exe: CXX_EXECUTABLE_LINKER__exercises_Debug CMakeFiles/exercises.dir/001-MultiplyTwoNumbers.cpp.obj CMakeFiles/exercises.dir/002-ArrayManualAscendingSort.cpp.obj
+build exercises.exe: CXX_EXECUTABLE_LINKER__exercises_Debug CMakeFiles/exercises.dir/001-MultiplyTwoNumbers.cpp.obj CMakeFiles/exercises.dir/002-ArrayManualAscendingSort.cpp.obj CMakeFiles/exercises.dir/003-DistanceBetweenSums.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\exercises.dir

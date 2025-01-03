@@ -5,4 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(exercises
         001-MultiplyTwoNumbers.cpp
-        002-ArrayManualAscendingSort.cpp)
+        002-ArrayManualAscendingSort.cpp
+        003-DistanceBetweenSums.cpp)

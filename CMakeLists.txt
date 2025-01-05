@@ -8,4 +8,5 @@ add_executable(exercises
         002-ArrayManualAscendingSort.cpp
         003-DistanceBetweenSums.cpp
         004-RemoveHundreds.cpp
-        005-PrintNotPrimeNumbers.cpp)
+        005-PrintNotPrimeNumbers.cpp
+        006-LessThanLastArray.cpp)

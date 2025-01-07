@@ -9,4 +9,5 @@ add_executable(exercises
         003-DistanceBetweenSums.cpp
         004-RemoveHundreds.cpp
         005-PrintNotPrimeNumbers.cpp
-        006-LessThanLastArray.cpp)
+        006-LessThanLastArray.cpp
+        007-IncrementOddNumbers.cpp)

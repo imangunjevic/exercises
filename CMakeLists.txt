@@ -10,4 +10,5 @@ add_executable(exercises
         004-RemoveHundreds.cpp
         005-PrintNotPrimeNumbers.cpp
         006-LessThanLastArray.cpp
-        007-IncrementOddNumbers.cpp)
+        007-IncrementOddNumbers.cpp
+        008-RecursiveFunction.cpp)
